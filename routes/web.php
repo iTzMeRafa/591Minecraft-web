@@ -12,5 +12,3 @@
 */
 
 Route::get('/', 'IndexController@layout')->name('index');
-Route::get('/maps', 'MapsController@layout')->name('maps');
-Route::get('/map/{map}', 'MapController@layout')->name('map');
